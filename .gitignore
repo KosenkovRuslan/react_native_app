@@ -1,5 +1,12 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# Claude
+.claude/
+
 # dependencies
 node_modules/
 
@@ -41,10 +48,3 @@ example
 # generated native folders
 /ios
 /android
-
-# editors
-.idea
-.vscode
-
-# AI
-.claude
